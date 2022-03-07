@@ -12,7 +12,7 @@ struct Hose {
   int weight;
   std::string hosename;
   std::string jokeyname;
-  float hanicap;
+  float handicap;
   float speed;
 };
 ~~~
@@ -33,7 +33,7 @@ struct Hose {
   int weight;
   std::string hosename;
   std::string jokeyname;
-  float hanicap;
+  float handicap;
   float speed;
   void print_hose() {
       std::cout << "gatenumber = " << gatenumber << std::endl;
@@ -41,7 +41,7 @@ struct Hose {
       std::cout << "weight = " << weight << std::endl;
       std::cout << "hosename = " << hosename << std::endl;
       std::cout << "jockeyname = " << jokeyname << std::endl;
-      std::cout << "handicap = " << hanicap << std::endl;
+      std::cout << "handicap = " << handicap << std::endl;
       std::cout << "speed = " << hose.speed << std::endl;
       std::cout << std::endl;
   }
