@@ -10,5 +10,14 @@
 <br>
 まずは，以下の関数を見てください．<br>
 ~~~cpp
-void 
+void print_hose(int hose_number, std::string hose_name, float handicap){
+    std::cout << "hose_number: " << hose_number << std::endl;
+    std::cout << "hose_name: " << hose_name << std::endl;
+    std::cout << "handicap: " << handicap << std::endl;
+}
 ~~~
+この関数は、馬の情報を出力する関数です<br>
+この関数では、値渡しを使って関数に情報を渡しています。<br>
+現代のコンピュータではそこまで気にする必要はないのかもしれませんが、大量のデータを値渡しすると、実行速度が遅くなります.<br>
+また、何よりコードがごちゃごちゃして見づらいです。<br>
+そこで、今週は構造体のポインタ渡しを作って上記の関数をスッキリさせてみてください。
