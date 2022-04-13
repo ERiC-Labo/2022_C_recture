@@ -1,2 +1,20 @@
-### launch.jsonを.vscodeフォルダの中にコピーしてください
-<img src="https://github.com/ERiC-Labo/2022_C_recture/blob/main/vscode_setting/image.jpg">
+## Opencvをvscodeで実行するための設定
+
+##### task.json
+```
+"args": [
+    "-fdiagnostics-color=always",
+    "-g",
+    "${file}",
+    "-o",
+    "${fileDirname}/${fileBasenameNoExtension}",
+    "-I",
+    "/usr/include/opencv4",
+    "-l",
+    "opencv_core",
+    "-l",
+    "opencv_imgcodecs",
+    "-l",
+    "opencv_highgui"
+]
+```
