@@ -4,7 +4,6 @@
 #### task.json
 ```
 "args": [
-    "-fdiagnostics-color=always",
     "-g",
     "${file}",
     "-o",
