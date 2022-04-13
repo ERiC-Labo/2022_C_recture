@@ -18,3 +18,4 @@
     "opencv_highgui"
 ]
 ```
+#### launch.jsonが生成されないのは仕方ないので諦めてください
