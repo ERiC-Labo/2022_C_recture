@@ -1,7 +1,21 @@
 ## Opencvをvscodeで実行するための設定
 
-### launch.jsonが生成されないのは仕方ないので諦めてください
-#### task.json
+#### launch.json
+```
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "g++ - アクティブ ファイルのビルドとデバッグ",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "cwd": "${fileDirname}",    
+        }
+    ]
+}
+```
+#### task.json(argsの部分だけ変更)
 ```
 "args": [
     "-g",
