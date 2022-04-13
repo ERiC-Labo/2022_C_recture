@@ -1,6 +1,7 @@
 ## Opencvをvscodeで実行するための設定
 
-##### task.json
+### launch.jsonが生成されないのは仕方ないので諦めてください
+#### task.json
 ```
 "args": [
     "-fdiagnostics-color=always",
@@ -18,7 +19,7 @@
     "opencv_highgui"
 ]
 ```
-#### launch.jsonが生成されないのは仕方ないので諦めてください
+
 
 #### ちなみにターミナルでコンパイルする手順は以下のとおりです。(プログラムがopen.cpp)
 ```
