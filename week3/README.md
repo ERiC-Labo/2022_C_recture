@@ -20,6 +20,6 @@ void print_hose(int hose_number, std::string hose_name, float handicap){
 この関数では、値渡しを使って関数に情報を渡しています。<br>
 現代のコンピュータではそこまで気にする必要はないのかもしれませんが、大量のデータを値渡しすると、実行速度が遅くなります.<br>
 また、何よりコードがごちゃごちゃして見づらいです。<br>
-そこで、今週は構造体の参照渡しを作って上記の関数をスッキリさせてみてください。
-[今週のおまけ1](https://www.youtube.com/watch?v=TMFBHVxwpJQ)
-[今週のおまけ](https://www.youtube.com/watch?v=6FV5A_7Nwt4)
+そこで、今週は構造体の参照渡しを作って上記の関数をスッキリさせてみてください。<br>
+[今週のおまけ1](https://www.youtube.com/watch?v=TMFBHVxwpJQ)<br>
+[今週のおまけ](https://www.youtube.com/watch?v=6FV5A_7Nwt4)<br>
