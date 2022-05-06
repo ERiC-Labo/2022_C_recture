@@ -9,7 +9,7 @@
 
 # 練習
 今回は，Imageクラスを作って，ImageProcessingクラスに画像処理を行う関数を作成することを目的とします．<br>
-まず、Image_processing.hppというヘッダファイル,Image_processing.cppというクラスの内容を記入するファイル、<br>
+まず、Image_processing.hppというヘッダファイル,Image_processing_class.cppというクラスの内容を記入するファイル、<br>
 そして、Image_processing.cppというmain文を記載するファイルを作成してください。<br>
 ## ヘッダファイル
 まずは、Image_processing.hppを使ってヘッダファイルを作成します。<br>
@@ -108,7 +108,8 @@ target_link_libraries(
 )
 ~~~
 次に、hppやcppファイルと同じ階層にbuildというディレクトリを作成します。<br>
-その後、ターミナル上でcmake..とコマンドを打ちます。これでコンパイルの準備は完了です。<br>
+build内に移動します<br>
+その後、ターミナル上でcmake ..とコマンドを打ちます。これでコンパイルの準備は完了です。<br>
 最後にmakeとターミナル上でコマンドを打てばコンパイル完了です。<br>
 # 今週の課題
 今週は、画像から競馬の枠連の結果を求めるプログラムを作ってもらいます。<br>
