@@ -19,6 +19,6 @@
 プログラムが完成したら，来週のゼミまでにペアの院生に確認してもらってください．中途半端に放置はやめてください．
 
 # おまけ
-[実際の結果がどうなったか気になる人は見てみてください．](https://www.youtube.com/watch?v=F4HYbBgtR0s)
-[前編](https://www.youtube.com/watch?v=GcvPBhMAwJ8)
-[後編](https://www.youtube.com/watch?v=77peP_CPmc4)
+[実際の結果がどうなったか気になる人は見てみてください．](https://www.youtube.com/watch?v=F4HYbBgtR0s)<br>
+[前編](https://www.youtube.com/watch?v=GcvPBhMAwJ8)<br>
+[後編](https://www.youtube.com/watch?v=77peP_CPmc4)<br>
