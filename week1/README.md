@@ -20,3 +20,5 @@
 
 # おまけ
 [実際の結果がどうなったか気になる人は見てみてください．](https://www.youtube.com/watch?v=F4HYbBgtR0s)
+[前編](https://www.youtube.com/watch?v=GcvPBhMAwJ8)
+[後編](https://www.youtube.com/watch?v=77peP_CPmc4)
